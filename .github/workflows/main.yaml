@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+    job1Name:
+        runs-on: ubuntu-latest
+        name: Description of the Job
+        steps:
+          - id: step1Id
+            uses: WPJorge/XRTalks_Actions@main
+            with:
+                username: 'Jorge'
